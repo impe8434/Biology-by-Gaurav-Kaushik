@@ -17,8 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract Android project ZIP
-        run: unzip -q Biology_by_Gaurav_Kaushik_Android_Project_CloudBuild.zip
-
+        run: unzip -q Biology_by_Gaurav_Kaushik_Android_Project_CloudBuild_Optimized.zip
       - name: Set up Java 17
         uses: actions/setup-java@v4
         with:
